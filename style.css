@@ -114,6 +114,22 @@ header p {
     line-height: 1.4;
 }
 
+.noticia-categorias {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.categoria {
+    font-size: 0.75rem;
+    padding: 4px 10px;
+    background: #F5F0E6;
+    color: #633525;
+    border-radius: 12px;
+    font-weight: 500;
+}
+
 .noticia-descricao {
     font-size: 1rem;
     color: #666;
